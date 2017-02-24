@@ -1,9 +1,9 @@
 # transfer_learning
 
-The file are encoded as: 
+The data files are encoded as: 
 
-{network}_{dataset}_100_bottleneck_features_train.p
-{network}_{dataset}_bottleneck_features_validation.p
+{network}_{dataset}_100_bottleneck_features_train.p <br>
+{network}_{dataset}_bottleneck_features_validation.p <br>
 
 Sample runs of feature_extraction.py:
 
