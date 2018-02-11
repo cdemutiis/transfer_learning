@@ -1,12 +1,18 @@
 # transfer_learning
 
+Two Data Sources: <br>
+1) German Traffic Sign Dataset <br>
+2) Cifar10 
+
 The data files are encoded as: 
 
-{network}_{dataset}_100_bottleneck_features_train.p <br>
-{network}_{dataset}_bottleneck_features_validation.p <br>
+{network}\_{dataset}\_100\_bottleneck\_features\_train.p <br>
+{network}\_{dataset}\_bottleneck\_features\_validation.p <br>
 
-Sample runs of feature_extraction.py:
+Sample runs of feature\_extraction.py:
 
-python feature_extraction.py --training_file resnet_traffic_100_bottleneck_features_train.p --validation_file resnet_traffic_bottleneck_features_validation.p  --epochs 50 --batch_size 256
+python feature\_extraction.py --training\_file resnet\_traffic\_100\_bottleneck\_features\_train.p --validation\_file resnet\_traffic\_bottleneck\_features\_validation.p  --epochs 50 --batch\_size 256
 
-python feature_extraction.py --training_file vgg_cifar10_100_bottleneck_features_train.p --validation_file vgg_cifar10_bottleneck_features_validation.p  --epochs 50 --batch_size 256
+python feature\_extraction.py --training\_file vgg\_cifar10\_100\_bottleneck\_features\_train.p --validation\_file vgg\_cifar10\_bottleneck\_features\_validation.p  --epochs 50 --batch\_size 256
+
+Starter Jupyter notebook and data provided by [Udacity](https://github.com/udacity/CarND-Transfer-Learning-Lab) 
