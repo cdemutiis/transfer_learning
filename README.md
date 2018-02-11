@@ -15,4 +15,4 @@ python feature\_extraction.py --training\_file resnet\_traffic\_100\_bottleneck\
 
 python feature\_extraction.py --training\_file vgg\_cifar10\_100\_bottleneck\_features\_train.p --validation\_file vgg\_cifar10\_bottleneck\_features\_validation.p  --epochs 50 --batch\_size 256
 
-Starter Jupyter notebook and data provided by [Udacity](https://github.com/udacity/CarND-Transfer-Learning-Lab) 
+Starter code and data provided by [Udacity](https://github.com/udacity/CarND-Transfer-Learning-Lab) 
